@@ -1,0 +1,15 @@
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\Shared.dll
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\Shared.pdb
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Client.dll
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Common.dll
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.dll
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Interfaces.dll
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Text.dll
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.xml
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Client.xml
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Common.xml
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Interfaces.xml
+D:\Repos\fitnessWitness\Backend\Shared\bin\Debug\ServiceStack.Text.xml
+D:\Repos\fitnessWitness\Backend\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+D:\Repos\fitnessWitness\Backend\Shared\obj\Debug\Shared.dll
+D:\Repos\fitnessWitness\Backend\Shared\obj\Debug\Shared.pdb

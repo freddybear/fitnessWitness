@@ -1,0 +1,110 @@
+﻿<div ng-controller="workoutController">
+    <h4>Register new exercise</h4>
+    <div class="row">
+        <input type="text" ng-model="exerciseModel" />
+        <button type="button" class="btn btn-primary" ng-click="addExercise(exerciseModel)">Register</button>
+    </div>
+    <hr />
+
+
+
+    <table ng-table="">
+        <thead>
+            <th>
+                <div class="col-md-1">Date</div>
+            </th>
+            <th>
+                <div class="col-md-2">Day</div>
+            </th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="x in exercises">
+                <td>
+                    <div class="row">
+                        <div class="col-md-8 form-inline">
+                            <table>
+                                <tr>
+                                    <td width="25px">
+                                        <div class="text-center pull-left">
+                                            <a href="javascript:void(0);" title="Show exercise" ng-click="model.showExercise(true);">
+                                                <i ng-show="!show" class="glyphicon glyphicon-chevron-right text-primary"></i>
+                                                <i ng-show="show" class="glyphicon glyphicon-chevron-down text-primary"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span title="{{x.date}}">
+                                            {{ x.date }}
+                                        </span>
+                                    </td>                                    
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-4">
+                            {{x.type}}
+                        </div>
+                    </div>
+                    <div class="row" ng-if="show">
+                        <div class="col-lg-12">
+                            <div class="panel" style="margin-bottom: 0px">
+                                <table class="table table-condensed table-striped" style="width: 100%; margin-bottom: 0px !important">
+                                    <tr>
+                                        <th>Exercise</th>
+                                    </tr>
+                                    <tr ng-repeat="w in x.workout">
+                                        <td>{{w.exerciseType}}</td>                                        
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <!--<h3>Added exercise: {{exercises}}</h3>
+    {{exercises[0].name}}
+    <hr />
+    <div class="container">
+        <div class="row panel-heading bgOrg">
+            <div class="col-sm-1 col-xs-12 pull-left">#</div>
+            <div class="col-sm-2 col-xs-12">Date</div>
+            <div class="col-sm-3 col-xs-12">Day</div>
+        </div>
+        <div ng-repeat="e in exercises">
+            <div class="row panel panel-body">
+                <div class="col-xs-1">
+                    <div class="handpointer glyphicon glyphicon-chevron-right"
+                         data-ng-click="collapse($event)" data-target="#view_{{e.date}}"
+                         data-toggle="collapse" aria-expanded="false"
+                         aria-controls="view_{{e.date}}"
+                         data-ng-if="e.workout!=null">
+
+                    </div>
+                </div>
+                <div class="col-sm-2 col-xs-12" data-ng-bind="e.date"></div>
+                <div class="col-sm-3 col-xs-12" data-ng-bind="e.type"></div>
+            </div>            
+        </div>
+    </div>
+
+        -->
+
+    <!--<hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Date</th>    
+                <th>Day</th>            
+            </tr>
+        </thead>
+        <tbody>
+            <tr>                                
+            </tr>
+        </tbody>
+    </table>
+</div>-->

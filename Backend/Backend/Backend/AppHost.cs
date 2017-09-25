@@ -21,7 +21,7 @@ namespace Backend
         {
             //Config examples
             //this.Plugins.Add(new PostmanFeature());
-            //this.Plugins.Add(new CorsFeature());
+            this.Plugins.Add(new CorsFeature());
         }
     }
 }

@@ -1,0 +1,7 @@
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\bin\Debug\Backend.ServiceModel.dll
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\bin\Debug\Backend.ServiceModel.pdb
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\bin\Debug\ServiceStack.Interfaces.dll
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\bin\Debug\ServiceStack.Interfaces.xml
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\obj\Debug\Backend.ServiceModel.csprojResolveAssemblyReference.cache
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\obj\Debug\Backend.ServiceModel.dll
+D:\Repos\fitnessWitness\Backend\Backend\Backend.ServiceModel\obj\Debug\Backend.ServiceModel.pdb
